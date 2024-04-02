@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tokentext"
+version = "0.1.0"
+description = "A bot for managing and interacting with cryptocurrency data via Twilio."
+authors = ["MCR <digitalcody@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+twilio = "^6.59.0"
+Flask = "^2.0.1"
+requests = "^2.25.1"
+cryptocompare = "^0.7.5"
+pycoingecko = { version = "^1.4.2", source = "pypi" }
+aiohttp = "^3.7.4"
+yfinance = "^0.1.63"
+mplfinance = "^0.12.7a17"
+backoff = "^1.10.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
